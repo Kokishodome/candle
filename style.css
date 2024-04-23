@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+h1 {
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    color:white;
+    text-shadow: 0 0 7px rgba(0, 0, 0, 0.500);
+    margin: 20px 0;
+    font-weight: normal;
+
+
+}
+body {
+    background-image: url('blur (1).jpg');
+}
+ 
+nav {
+    background-color: rgba(0, 0, 0, 0.340);
+    text-align: center;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 15px;
+    
+    
+    
+
+}
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.093);
+    
+}
+.hero{
+    background-image: url('fire.jpeg');
+    background-size: cover;
+}
+
+.hero h2 {
+    color: white;
+    text-shadow:0 0 7px rgba(255, 255, 255, 0.537);
+    font-family: "Abril Fatface", serif;
+    font-weight: normal;
+    text-align: center;
+    padding: 100px 0 50px;
+
+    /* make the h2,  REALLY pretty (make it slay) */
+}
