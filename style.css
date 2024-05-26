@@ -40,6 +40,7 @@ nav a:hover {
 .hero{
     background-image: url('fire.jpeg');
     background-size: cover;
+    text-align: center;
 }
 
 .hero h2 {
@@ -50,5 +51,38 @@ nav a:hover {
     text-align: center;
     padding: 100px 0 50px;
 
-    /* make the h2,  REALLY pretty (make it slay) */
+    
 }
+
+.hero p {
+    background-color: rgba(222, 20, 20, 0.469);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Nunito", sans-serif;
+    width: 60%;
+    margin-left: 38%;
+    backdrop-filter: blur(10px);
+    text-align: left;
+}
+
+.hero a {
+    color: white;
+    background-color: rgba(214, 39, 39, 0.508);
+    border: 2px dashed rgba(74, 16, 16, 0.685);
+    text-decoration: none;
+    line-height: 40px;
+    display: inline-block;
+    margin: 50px 0 100px;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-family: "Nunito", sans-serif;
+    backdrop-filter: blur(10px);
+}
+
+.hero a:hover {
+    border: 2px dashed rgba(218, 116, 116, 0.728);
+    background-color: rgba(182, 53, 53, 0.767);
+}
+ 
+/* add heading about us and add a picture with a candle */
