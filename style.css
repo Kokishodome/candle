@@ -93,4 +93,36 @@ nav a:hover {
 img {
     border-radius: 10px;
     box-shadow: 0 0 10px;
+    vertical-align: middle  ;
+
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(112, 105, 105);
+    font-family: "Abril Fatface", serif;
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info {
+    width: 40%;
+    display: inline-block;
+    /* this is the property so the '.info tag' is in the middle of the img */
+    vertical-align: middle;
+}
+
+.aboutUs {
+    text-align: center;
+}
+.aboutUs h4 {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    text-shadow: 0 0 10px rgb(94, 90, 90);
+    margin-bottom: 10px;
+    border-bottom: dashed;
 }
