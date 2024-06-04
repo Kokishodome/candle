@@ -28,6 +28,7 @@ nav a{
     line-height: 40px;
     display: inline-block;
     padding: 0 15px;
+
     
     
     
@@ -40,7 +41,6 @@ nav a:hover {
 .hero{
     background-image: url('fire.jpeg');
     background-size: cover;
-    text-align: center;
 }
 
 .hero h2 {
@@ -55,34 +55,42 @@ nav a:hover {
 }
 
 .hero p {
-    background-color: rgba(222, 20, 20, 0.469);
+    background-color: rgba(162, 53, 53, 0.66);
     color: white;
-    padding: 10px;
+    width: 59%;
+    margin-left: 40%;
+    padding: 20px;
+    /* box sizing makes the text stay in place even if the padding is bigger */
+    box-sizing: border-box;
     border-radius: 10px;
+    margin-right: 1%;
     font-family: "Nunito", sans-serif;
-    width: 60%;
-    margin-left: 38%;
-    backdrop-filter: blur(10px);
-    text-align: left;
 }
 
 .hero a {
+    background-color: rgba(104, 97, 97, 0.663);
     color: white;
-    background-color: rgba(214, 39, 39, 0.508);
-    border: 2px dashed rgba(74, 16, 16, 0.685);
+    font-family: "Nunito", sans-serif;
     text-decoration: none;
+    /* line height is used to put the text in the middle of the height: ; */
     line-height: 40px;
     display: inline-block;
-    margin: 50px 0 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 60px;
+    margin-left: 20px;
     border-radius: 10px;
-    padding: 0 15px;
-    font-family: "Nunito", sans-serif;
-    backdrop-filter: blur(10px);
+    border: 2px dashed rgba(255, 255, 255, 0.206); 
+    cursor: pointer;
+    
+
 }
 
-.hero a:hover {
-    border: 2px dashed rgba(218, 116, 116, 0.728);
-    background-color: rgba(182, 53, 53, 0.767);
+.hero a:hover{
+    border: 2px dashed white;
 }
- 
-/* add heading about us and add a picture with a candle */
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
