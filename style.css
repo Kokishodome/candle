@@ -1,6 +1,11 @@
 *{
     margin: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+
+}
 h1 {
     font-family: "Abril Fatface", serif;
     text-align: center;
@@ -68,6 +73,11 @@ nav a:hover {
     font-family: "Nunito", sans-serif;
 }
 
+.hero .Greybutton {
+
+    margin-left: 20px;
+}
+
 .Greybutton {
     background-color: rgba(104, 97, 97, 0);
     color: white;
@@ -78,8 +88,7 @@ nav a:hover {
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 60px;
-    margin-left: 20px;
+    margin-bottom: 60px;    
     border-radius: 10px;
     border: 2px dashed rgba(255, 255, 255, 0.422); 
     cursor: pointer;
@@ -197,5 +206,80 @@ h3 {
     background-image: url(Uk.jpeg);
     background-size: cover;
 }
-        
-        /* Finish putting all the images for the countries  */
+
+.candle {
+   width: 27%; 
+   display: inline-block;
+   margin: 10px;
+   text-align: center;
+   font-family: "Nunito", sans-serif;
+   color: #333;
+   vertical-align: top;
+}
+
+.candle img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    
+}
+.Ourcandles {
+    text-align: center;
+}
+
+.candle p {
+
+    margin-bottom: 15px;
+}
+
+.feedback h4 {
+
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.448);
+}
+
+input {
+    height: 40px;
+    border: 2px dashed rgb(132, 132, 217);
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    font-family: "Nunito", sans-serif;
+    width: 90%;
+    max-width: 400px;
+}
+      
+textarea {
+    display: block;
+    margin: auto;
+    border: none;
+    width: 90%;
+    max-width: 400px;
+    font-family: "Nunito", sans-serif;
+}
+
+button {
+    margin: auto; 
+    display: block !important;
+    margin-top: 10px;
+    margin-bottom: 100px;
+
+}
+@media (max-width:600px) {
+    .hero a {
+        margin-top: 15px;
+    }
+    .info {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .country {
+        width: 90%;
+    }
+    .candle {
+        width: 90%;
+    }
+}
